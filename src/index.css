@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* السكور بار بالكامل */
+::-webkit-scrollbar {
+  width: 11px;  /* سمك العمود */
+  height: 6px; /* للـ horizontal scrollbar */
+}
+
+/* خلفية السكور بار */
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* لون خفيف للخلفية */
+  border-radius: 10px;  /* حواف مدورة */
+}
+
+/* شكل المؤشر */
+::-webkit-scrollbar-thumb {
+  background: #a61097;       /* لون المؤشر */
+  border-radius: 10px;    /* حواف مدورة */
+  transition: background 0.3s;
+}
+
+/* عند المرور بالماوس على المؤشر */
+::-webkit-scrollbar-thumb:hover {
+  background: #c50d0d;  /* لون أغمق عند hover */
+}
